@@ -1,0 +1,14 @@
+.titulo {
+    display: inline-block;
+    background-color: var(--color-frontend);
+}
+
+.titulo h2 {
+    margin: 2rem 3rem;
+    color: var(--color-gray);
+    font-family: var(--fuente-principal);
+    font-size: 4rem;
+    font-size: 400;
+}
+
+
