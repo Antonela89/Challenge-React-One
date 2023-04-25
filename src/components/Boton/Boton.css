@@ -1,16 +1,8 @@
-.boton  {
-    color: var(--color-gray);
-    border: 1px solid var(--color-gray);
-    border-radius: 4px;
-    padding: 2.1rem 3rem;
-    text-transform: capitalize;
-    background-color: var(--color-black-dark);
-    font-size: 2.1rem;
-    font-family: var(--fuente-secundaria);
-}
+   /* .boton__link {
+        text-decoration: none;
+        color: colorGray;
+    }
 
-.boton:hover {
-    color: var(--color-primary-medium);
-    border: 1px solid var(--color-primary-medium);
-    background-color: var(--color-gray);
-}
+     &:hover>${boton__link} {
+        color: ${colorPrimaryMedium};
+    }  */

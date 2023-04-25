@@ -1,9 +1,15 @@
-import './Carrousel.css';
+import styled from 'styled-components';
 import Card from '../Card';
+
+const StyleCarrousel = styled.section`
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+`
 
 const Carrousel = () => {
     return (
-        <section className='carrousel'>
+        <StyleCarrousel>
             <Card/>
             <Card/>
             <Card/>
@@ -20,7 +26,7 @@ const Carrousel = () => {
             armar array de objetos donde  cada objeto esta formado por :
             categoria, color de categoria, descripcion de categoria y otro array con link video y categoria
               */}
-        </section>
+        </StyleCarrousel>
     )
 }
 

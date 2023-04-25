@@ -1,21 +1,20 @@
 import './App.css';
-import Banner from './components/Banner'
-import Categoria from './components/Categoria';
-import Footer from './components/Footer';
-import  Header from './components/Header';
+import Home from './pages/Home';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import GlobalStyle from './GlobalStyle';
 
 function App() {
 
   return (
-    <div className="App">
-      <Header />
-      <Banner />
-      {/*Renderizado condicinal segun cantidad de categorias que hay en array*/ }
-      <Categoria/>
-      <Categoria/>
-      <Categoria/>
-      <Footer/>   
-    </div>
+    <>
+        <GlobalStyle/>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+
+        </Routes>
+      </Router>
+    </>
   )
 }
 
