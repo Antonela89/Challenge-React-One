@@ -17,5 +17,5 @@ export const colorErrorMedium = "#E53935";
 export const colorErrorLight = "#FCE7E7";
 
 // Fuentes
-export const fuentePrincipal="Roboto', sans-serif";
-export const fuenteSecundaria= "Source Sans Pro', sans-serif";
+export const fuentePrincipal="Roboto, sans-serif";
+export const fuenteSecundaria= "Source Sans Pro, sans-serif";

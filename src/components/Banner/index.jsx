@@ -1,5 +1,4 @@
-import Card from '../Card';
-import CategoriaTitulo from '../CategoriaTitulo';
+import {StyleTitulo, StyleH2, StyleCard} from '../UI/index';
 import styled from 'styled-components';
 import img from '../../assets/img/banner.jpg';
 import {fuentePrincipal, colorGray} from '../UI/variables'
@@ -13,12 +12,12 @@ const StyleBanner = styled.div`
 `
 
 const Background = styled.div`
-        width: 100%;
-        height: 100%;
-        background-image: url(${img});
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(${img});
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
         &:before {
             content:'';
             inset: 0;
@@ -28,7 +27,7 @@ const Background = styled.div`
 `
 
 const Contenido = styled.div`
- width: 100%;
+    width: 100%;
     height: 50%;
     position: absolute;  
     display: flex; 
@@ -45,15 +44,15 @@ const Texto = styled.div`
 `
 
 const Textoh3 = styled.h3`
-        font-size: 4.6rem;
-        font-weight: 400;
-        margin: 4rem 0 0.9rem 0;
+    font-size: 4.6rem;
+    font-weight: 400;
+    margin: 4rem 0 0.9rem 0;
 `
 
 const Textop = styled.p`
-        font-size: 1.8rem;
-        font-weight: 300;
-        margin: 0;
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 0;
 ` 
 
 const Banner = () => {
@@ -63,12 +62,13 @@ const Banner = () => {
             <Background />
             <Contenido>
                 <Texto >
-                    <CategoriaTitulo titulo="Front End"/>
+                    <StyleTitulo/>
+                        <StyleH2 titulo="Front End"/>
                     { /*Renderizado condicinal, se va a mostrar el titulo y descripcion del primer elemento del array*/ }
                     <Textoh3>Challenge React</Textoh3>
                     <Textop>Este challenge es una forma de aprendizaje. Es un mecanismo donde podrás comprometerte en la resolución de un problema para poder aplicar todos los conocimientos adquiridos en la formación React.</Textop>
                 </Texto>
-                <Card/>
+                {/* <StyleCard></StyleCard> */} 
             </Contenido>
         </StyleBanner>
     )
