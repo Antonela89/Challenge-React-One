@@ -1,7 +1,7 @@
-import {StyleTitulo, StyleH2, StyleCard} from '../UI/index';
+import React from 'react';
 import styled from 'styled-components';
-import img from '../../assets/img/banner.jpg';
-import {fuentePrincipal, colorGray} from '../UI/variables'
+import img from '../../../assets/img/banner.jpg';
+import {fuentePrincipal, colorGray} from '../../UI/variables'
 
 const StyleBanner = styled.div`
     width: 100%;
@@ -62,8 +62,6 @@ const Banner = () => {
             <Background />
             <Contenido>
                 <Texto >
-                    <StyleTitulo/>
-                        <StyleH2 titulo="Front End"/>
                     { /*Renderizado condicinal, se va a mostrar el titulo y descripcion del primer elemento del array*/ }
                     <Textoh3>Challenge React</Textoh3>
                     <Textop>Este challenge es una forma de aprendizaje. Es un mecanismo donde podrás comprometerte en la resolución de un problema para poder aplicar todos los conocimientos adquiridos en la formación React.</Textop>

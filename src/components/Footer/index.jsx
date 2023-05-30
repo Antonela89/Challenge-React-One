@@ -1,5 +1,6 @@
+
+import React from 'react';
 import styled from 'styled-components';
-import Logo from '../Logo';
 import { colorBlackDark, colorPrimaryMedium } from '../UI/variables'
 
 const StyleFooter = styled.footer`
@@ -12,11 +13,15 @@ const StyleFooter = styled.footer`
     padding-bottom: 6rem;
     border-top: 2px solid ${colorPrimaryMedium};
 `
+const StyleLogotipo = styled.img`
+    width: 15%;
+    height: 10%;
+    `
 
 const Footer = ( ) => {
     return (
         <StyleFooter>
-            <Logo/>
+           <StyleLogotipo src='..\..\src\assets\img\logo.png' alt='Logo'/>
         </StyleFooter>
     )
 }

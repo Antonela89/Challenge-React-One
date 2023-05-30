@@ -1,11 +1,11 @@
 {
     "categorias": [
         {
-        "id": "Front End",
+        "id":"1",
         "categoria": "Front End",
         "descripcion": "",
         "color": "#6BD1FF",
-        "url": [
+        "videos": [
             "https://www.youtube.com/embed/ov7vA5HFe6w",
             "https://www.youtube.com/watch?v=PztCEdIJITY",
             "https://www.youtube.com/watch?v=rpvrLaBQwgg",
@@ -13,55 +13,55 @@
         ]
     },
     {
-        "id": "Back End",
+        "id":"2",
         "categoria": "Back End",
         "descripcion": "Todos los video que estoy usando para estudiar Back End ",
         "color": "#00C86F",
-        "url": [
+        "videos": [
             "https://www.youtube.com/watch?v=cLLKVd5CNLc"
         ]
     },
     {
-        "id": "Mobile",
+        "id":"3",
         "categoria": "Mobile",
         "descripcion": "Contenido que vengo estudiando sobre React Native y Flutter",
         "color":  "#FFBA05",
-        "url": []
+        "videos": []
     },
     {
-        "id": "Infraestrutura",
+        "id":"4",
         "categoria": "Infraestrutura",
         "descripcion": "Todo lo que estoy aprendiendo sobre Docker y mucho mas",
         "color": "#9CD33B",
-        "url": []
+        "videos": []
     },
     {
-        "id": "Data Science",
+        "id":"5",
         "categoria": "Data Science",
         "descripcion": "Cosas de React y Python que vengo aprendiendo",
         "color": "#9CD33B",
-        "url": []
+        "videos": []
     },
     {
-        "id":"Design & UX",
+        "id":"6",
         "categoria":"Design & UX",
         "descripcion": "Herramientas y técnicas que estudio sobre UX y Design",
         "color":  "#DC6EBE",
-        "url": []
+        "videos": []
     },
     {
-        "id": "Marketing Digital",
+        "id":"7",
         "categoria": "Marketing Digital",
         "descripcion": "La forma de vender y monetizar mis ideas",
         "color": "#6B5BE2",
-        "url": []
+        "videos": []
     },
     {
-        "id":"Innocavion & Gestion",
+        "id":"8",
         "categoria":"Innocavion & Gestion",
         "descripcion": "Como mantener el equipo felíz y mucho mas",
         "color": "#FF8C2A",
-        "url": ["https://www.youtube.com/watch?v=p4kpHAvQH9w"]
+        "videos": ["https://www.youtube.com/watch?v=p4kpHAvQH9w"]
     }
 ]
 }

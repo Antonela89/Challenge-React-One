@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { colorGray, colorPrimaryMedium, fuenteSecundaria } from '../UI/variables';
@@ -10,11 +11,12 @@ const BotonLink = styled(Link)`
 const StyleBoton  = styled.button`
     border: 1px solid ${colorGray};
     border-radius: 4px;
-    padding: 2.1rem 3rem;
+    padding: 1rem 2rem;
     text-transform: capitalize;
     background-color: transparent;
     text-decoration: none;
-    font-size: 2.1rem;
+    font-size: 2.5rem;
+    font-weight: 400;
     font-family: ${fuenteSecundaria};
     
     &:hover {
